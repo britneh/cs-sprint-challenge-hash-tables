@@ -1,7 +1,9 @@
+"""
+numbers that exist in all lists
+"""
+
 def intersection(arrays):
-    """
-    YOUR CODE HERE
-    """
+
     # Your code here
 
     return result
