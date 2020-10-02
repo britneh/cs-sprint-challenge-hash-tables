@@ -3,8 +3,19 @@ numbers that exist in all lists
 """
 
 def intersection(arrays):
+    store = {}
 
-    # Your code here
+    for list in arrays:
+        for item in list:
+            if item not in store:
+                store[item] = 0
+            if item in store:
+                store[item] += 1
+    result= []
+
+    for key, value in store.items():
+        if value == len(arrays):
+            result.append(key)
 
     return result
 

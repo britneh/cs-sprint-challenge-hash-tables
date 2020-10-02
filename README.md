@@ -23,11 +23,27 @@ Commit your code regularly and meaningfully. This practice helps both you (in ca
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your answers beforehand.
 
 1. Hashing functions
+
+A hash function is a mathematical function that converts an input value into a compressed numerical value – a hash or hash value. Basically, it's a processing unit that takes in data of arbitrary length and gives you the output of a fixed length – the hash value.
+
 2. Collision resolution
+
+Like using a linked list to add a value to the same index. 
+
 3. Performance of basic hash table operations
+
+insert, search, delete 
+
 4. Load factor
+
+self.length/self.capacity
+
 5. Automatic resizing
+when given new capacity, copy over old table to new table and iterate by inserting each of the pairs.  
+
 6. Various use cases for hash tables
+
+
 
 We expect you to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
